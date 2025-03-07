@@ -25,5 +25,3 @@ The core process involves:
 6. **Word Cloud of Customer Segments:** A word cloud is generated based on the text data in the 'canvas_customer_segments' column to visualize frequent terms in customer segment descriptions after being cleaned.
 
 7. **Output and Export:** Finally, the enriched `zigzag_df` DataFrame (including the assigned industry, subindustry, and sales model) is saved to a new CSV file named 'IndustryZigzag.csv'.
-
-In essence, the notebook provides a method for classifying new startup ideas based on their textual descriptions, by assigning existing industries to them, and classifying their potential sales model.  The visualization component aids in understanding the overall distribution of ideas within those categories.
